@@ -23,6 +23,4 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('posts/{post}/comments/{comment}', function ($postId, $commentId) {
-   return "Post ".$postId.""."comment".$commentId;
-});
+ 
